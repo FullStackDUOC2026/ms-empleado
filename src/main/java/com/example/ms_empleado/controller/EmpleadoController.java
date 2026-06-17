@@ -2,17 +2,18 @@ package com.example.ms_empleado.controller;
 
 import com.example.ms_empleado.dto.EmpleadoRequestDTO;
 import com.example.ms_empleado.dto.EmpleadoResponseDTO;
-import com.example.ms_empleado.model.Empleado;
 import com.example.ms_empleado.service.EmpleadoService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.Response;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 import static org.springframework.http.HttpStatus.CREATED;
+
+//hola feo
 
 @RestController
 @RequiredArgsConstructor
